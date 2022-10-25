@@ -3,7 +3,11 @@ guid: 4525736a9d0538940bce8f13f1227b26
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
+<<<<<<< HEAD
   serializedVersion: 12
+=======
+  serializedVersion: 11
+>>>>>>> 1e77eaad767077b04d3bef6636a379bd9b9f80df
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,8 +27,11 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+<<<<<<< HEAD
   vTOnly: 0
   ignoreMasterTextureLimit: 0
+=======
+>>>>>>> 1e77eaad767077b04d3bef6636a379bd9b9f80df
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -56,6 +63,7 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+<<<<<<< HEAD
   flipbookRows: 1
   flipbookColumns: 1
   maxTextureSizeSet: 0
@@ -68,6 +76,16 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 32
+=======
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+>>>>>>> 1e77eaad767077b04d3bef6636a379bd9b9f80df
     resizeAlgorithm: 0
     textureFormat: 3
     textureCompression: 1
@@ -101,6 +119,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
@@ -113,6 +132,8 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> 1e77eaad767077b04d3bef6636a379bd9b9f80df
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -126,7 +147,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
     nameFileIdTable: {}
+=======
+>>>>>>> 1e77eaad767077b04d3bef6636a379bd9b9f80df
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
