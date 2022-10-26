@@ -87,11 +87,7 @@ TextureImporter:
       213: -3888567672798316567
     second: TX Chest Animation Golden 6
   externalObjects: {}
-<<<<<<< HEAD
   serializedVersion: 12
-=======
-  serializedVersion: 11
->>>>>>> 1e77eaad767077b04d3bef6636a379bd9b9f80df
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -151,10 +147,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-<<<<<<< HEAD
   cookieLightType: 1
-=======
->>>>>>> 1e77eaad767077b04d3bef6636a379bd9b9f80df
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -204,7 +197,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
@@ -217,8 +209,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-=======
->>>>>>> 1e77eaad767077b04d3bef6636a379bd9b9f80df
   spriteSheet:
     serializedVersion: 2
     sprites:
