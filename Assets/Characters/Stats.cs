@@ -36,7 +36,7 @@ public class Stats : MonoBehaviour
         if (collider.gameObject.tag == "Bomb")
         {
             health -= Random.Range(100, 200);
-            
+
             Destroy(collider.gameObject);
         }
         if (collider.gameObject.tag == "heal1")
