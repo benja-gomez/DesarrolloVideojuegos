@@ -5,22 +5,25 @@ using UnityEngine.UI;
 
 public class BotonesInicio : MonoBehaviour
 {
-    public Button yourButton;
+    public Button botonIniciar;
+
+    public Button botonLeaderboard;
 
     void Start()
     {
-        Button btn = yourButton.GetComponent<Button>();
-        btn.onClick.AddListener (TaskOnClick);
+        Button btnIniciar = botonIniciar.GetComponent<Button>();
+        Button btnLeaderboard = botonLeaderboard.GetComponent<Button>();
+        btnIniciar.onClick.AddListener (goInicio);
+        btnLeaderboard.onClick.AddListener (goLeaderboard);
     }
 
-    void TaskOnClick()
+    void goInicio()
     {
-        Debug.Log("You have clicked the button!");
-        Cambiar();
+        SceneManager.LoadScene("Level_00_PersonalData");
     }
 
-    public void Cambiar()
+    void goLeaderboard()
     {
-        SceneManager.LoadScene("Level_GameScene_1");
+        SceneManager.LoadScene("Level_99_Leaderboard");
     }
 }
