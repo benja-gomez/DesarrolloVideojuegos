@@ -11,6 +11,10 @@ public class BotonesInicio : MonoBehaviour
 
     void Start()
     {
+        GameObject
+            .FindGameObjectWithTag("Music")
+            .GetComponent<MusicClassHome>()
+            .PlayMusic();
         Button btnIniciar = botonIniciar.GetComponent<Button>();
         Button btnLeaderboard = botonLeaderboard.GetComponent<Button>();
         btnIniciar.onClick.AddListener (goInicio);
