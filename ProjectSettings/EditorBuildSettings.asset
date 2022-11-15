@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/_Levels/Level_00_HomeScreen.unity
     guid: d6747957811b55844bca70ab31e7bd30
   - enabled: 1
+    path: Assets/_Levels/Level_00_PersonalData.unity
+    guid: 9d0745a9d39fb9d45b0caf183b8d010d
+  - enabled: 1
     path: Assets/_Levels/Level_01_GameScene_0.unity
     guid: 036b5fbef85bdf847973f95f84b9ad73
   - enabled: 1
@@ -23,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Levels/Level_04_GameOver.unity
     guid: 5c994f375a952394fb5c569b646ff8cd
+  - enabled: 1
+    path: Assets/_Levels/Level_05_Win.unity
+    guid: 7716bcd47655ce14798abe411ba1ba9b
+  - enabled: 1
+    path: Assets/_Levels/Level_99_Leaderboard.unity
+    guid: d6cdd4ec8d368d94caa171ad82182366
   m_configObjects: {}

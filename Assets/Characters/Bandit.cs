@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class Bandit : MonoBehaviour
 {
+    public static string username = "";
+
+
     void Start()
     {
     }

@@ -19,7 +19,7 @@ public class Stats : MonoBehaviour
 
     public int health = 1000;
 
-    public int gold = 0;
+    public static int gold = 0;
 
     public Image healthBar;
 

@@ -9,7 +9,7 @@ public class LevelFail : MonoBehaviour
     {
         if (collider.gameObject.tag == "LevelFail")
         {
-            SceneManager.LoadScene("Level_GameOver");
+            SceneManager.LoadScene("Level_04_GameOver");
         }
     }
 }
