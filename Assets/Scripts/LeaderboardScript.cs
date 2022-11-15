@@ -7,12 +7,15 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Web;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LeaderboardScript : MonoBehaviour
 {
     public Text leaderBoardname;
 
     public Text leaderBoardscore;
+
+    public Button botonIniciar;
 
     private const string leaderBoardFile = "leaderBoardFile.txt";
 
@@ -50,8 +53,15 @@ public class LeaderboardScript : MonoBehaviour
         }
     }
 
+    void goInicio()
+    {
+        SceneManager.LoadScene("Level_00_PersonalData");
+    }
+
     void Start()
     {
+        Button btnIniciar = botonIniciar.GetComponent<Button>();
+        btnIniciar.onClick.AddListener (goInicio);
         if (
             File.Exists(leaderBoardFile) // 9
         )
@@ -60,15 +70,22 @@ public class LeaderboardScript : MonoBehaviour
             var leaderboard = JsonUtility.FromJson<Board>(jsonString);
             leaderboard.players =
                 leaderboard.players.OrderBy(o => o.score).ToList();
+            int index = 1;
             foreach (var
                 player
                 in
                 leaderboard.players.OrderByDescending(o => o.score).ToList()
             )
             {
-                leaderBoardname.text += "\n\n" + player.username.ToString();
-                leaderBoardscore.text += "\n\n" + player.score.ToString();
-                Debug.Log(player.username);
+                if (index <= 10)
+                {
+                    leaderBoardname.text +=
+                        "\n " + index + "  " + player.username.ToString();
+                    leaderBoardscore.text += "\n" + player.score.ToString();
+                    index++;
+                }
+
+                Debug.Log (index);
             }
         }
 

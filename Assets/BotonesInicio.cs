@@ -17,10 +17,6 @@ public class BotonesInicio : MonoBehaviour
                 .FindGameObjectWithTag("Music")
                 .GetComponent<MusicClassHome>()
                 .PlayMusic();
-            GameObject
-                .FindGameObjectWithTag("Music")
-                .GetComponent<MusicClassGame>()
-                .PlayMusic();
         }
         Button btnIniciar = botonIniciar.GetComponent<Button>();
         Button btnLeaderboard = botonLeaderboard.GetComponent<Button>();

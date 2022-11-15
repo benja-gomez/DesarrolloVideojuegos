@@ -13,6 +13,7 @@ public class PersonalDataScene : MonoBehaviour
 
     void Start()
     {
+        Stats.gold = 0;
         if (Bandit.username.Length > 0)
         {
             userName.text = Bandit.username;
