@@ -73,15 +73,15 @@ public class Movement : MonoBehaviour
 
         // Swap direction of sprite depending on walk direction
         if (inputX > 0)
-            transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+            transform.localScale = new Vector3(-1.5f, 1.5f, 1.5f);
         else if (inputX < 0)
-            transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+            transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
 
         // Swap direction of sprite depending on walk direction
         // if (inputX > 0)
-        //     transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+        //     transform.localScale = new Vector3(-1.5f, 1.5f, 1.5f);
         // else if (inputX < 0)
-        //     transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+        //     transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
         //Check if character just landed on the ground
         if (!m_grounded && IsGrounded())
         {

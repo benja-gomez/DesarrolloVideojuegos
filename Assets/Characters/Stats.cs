@@ -92,7 +92,7 @@ public class Stats : MonoBehaviour
 
         if (health <= 0)
         {
-            SceneManager.LoadScene("Level_GameOver");
+            SceneManager.LoadScene("Level_04_GameOver");
         }
     }
 

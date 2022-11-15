@@ -10,7 +10,7 @@ public class LevelSuccess : MonoBehaviour
         if (collider.gameObject.tag == "LevelSuccess")
         {
             SceneManager
-                .LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+                .LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             Debug.Log("Awake:" + SceneManager.GetActiveScene().name);
         }
     }
